@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TaskTamer" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="cardBackgroundColor">#4B4B4B</item>
+        <item name="btnBackgroundColor">#4B4B4B</item>
+        <item name="mainbtnBackgroundColor">#4B4B4B</item>
+        <item name="RdbtnBackgroundColor">@color/Btn_Red</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+        <!-- Other theme attributes -->
+    <attr name="cardBackgroundColor" format="color" />
+    <attr name="btnBackgroundColor" format="color" />
+    <attr name="mainbtnBackgroundColor" format="color" />
+    <attr name="RdbtnBackgroundColor" format="color" />
+
+</resources>

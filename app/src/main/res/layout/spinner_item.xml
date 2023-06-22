@@ -1,0 +1,10 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:singleLine="true"
+    android:background="@color/greybkgrd"
+    android:shadowColor="@color/greybkgrd"
+    android:outlineSpotShadowColor="@color/greybkgrd"
+    android:padding="10dp"
+    android:textColor="@color/txt_colour_light"
+    android:textSize="16sp" />

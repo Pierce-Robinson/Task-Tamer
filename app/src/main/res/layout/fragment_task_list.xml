@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.varsitycollege.tasktamer.ui.tasklist.TaskListFragment"
+    android:paddingTop="8dp">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/dateFilter"
+        style="@style/Widget.Material3.Button.Icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_margin="16dp"
+        android:text="Filter Tasks by Date"
+        android:textSize="16sp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycle_tasks"
+        android:layout_width="match_parent"
+        android:layout_height="635dp"
+        tools:listitem="@layout/task_item"
+        android:paddingBottom="70dp"
+        android:clipToPadding="false"
+        android:layout_gravity="bottom"/>
+
+</FrameLayout>

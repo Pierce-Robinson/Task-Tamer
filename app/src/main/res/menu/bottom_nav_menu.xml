@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/outline_home_24"
+        android:title="@string/title_dashboard" />
+
+    <item
+        android:id="@+id/navigation_taskList"
+        android:icon="@drawable/outline_calendar_month_24"
+        android:title="Task List" />
+
+    <item
+        android:id="@+id/placeholder"
+        android:title="" />
+
+    <item
+        android:id="@+id/navigation_statistics"
+        android:icon="@drawable/outline_insert_chart_outlined_24"
+        android:title="Statistics" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/outline_settings_24"
+        android:title="Settings"/>
+
+</menu>

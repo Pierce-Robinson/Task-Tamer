@@ -1,0 +1,7 @@
+package com.varsitycollege.tasktamer.ui.settings
+
+import androidx.lifecycle.ViewModel
+
+class SettingsViewModel : ViewModel() {
+    // TODO: Implement the ViewModel
+}

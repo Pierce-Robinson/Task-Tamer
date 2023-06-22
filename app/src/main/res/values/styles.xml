@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize the ActionBar color -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/Btn_Red</item>
+        <!-- Other theme attributes -->
+        <!-- ... -->
+    </style>
+
+    <!-- Rounded image view
+    https://stackoverflow.com/questions/66138001/imageview-with-only-bottom-or-top-corners-rounded/66138444#66138444
+    user answered
+    https://stackoverflow.com/users/9180439/ali
+    accessed 4 June 2023-->
+    <style name="ImageView.Corner" parent="">
+        <item name="cornerSizeTopRight">15dp</item>
+        <item name="cornerSizeTopLeft">15dp</item>
+        <item name="cornerSizeBottomLeft">15dp</item>
+        <item name="cornerSizeBottomRight">15dp</item>
+        <item name="cornerFamily">rounded</item>
+    </style>
+    <!-- https://stackoverflow.com/questions/62086854/how-to-change-theme-of-materialdatepicker-in-android
+     accessed 6 June 2023-->
+    <style name="MaterialCalendarTheme" parent="ThemeOverlay.MaterialComponents.MaterialCalendar">
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimary">@color/Btn_Red</item>
+    </style>
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logowhite"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logowhite"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TaskTamer"
+        tools:targetApi="31">
+        
+        <provider
+            android:authorities="com.varsitycollege.fileprovider"
+            android:name="androidx.core.content.FileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/fileprovider"/>
+        </provider>
+        <activity
+            android:name=".cameratest"
+            android:exported="false" />
+        <activity
+            android:name=".AddCategoryActivity"
+            android:label="Add Category"
+            android:exported="false" />
+        <activity
+            android:name=".AddTaskActivity"
+            android:label="Add Task"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <!-- https://stackoverflow.com/questions/26863834/how-to-push-edittext-up-when-keyboard-appears
+         accessed 5 June 2023 -->
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
